@@ -1,6 +1,7 @@
 const Title = (props) => {
+
     return (
-        <p>{props.text}</p>
+        <p style={{ color: "red" }}>{props.text}</p>
     )
 }
 
